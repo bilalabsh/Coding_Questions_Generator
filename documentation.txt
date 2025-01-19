@@ -1,0 +1,43 @@
+A Coding test generator software which generates coding test based on user query.
+This Software leverages OpenAi's key along with Langchain to build a conversational model where user inputs query and the model fetches Coding questions relevant to user query.
+This is Bilal Abdul's official submission for assessment test for internship at codeInterview.io.
+
+PROJECT OVERVIEW
+This directory contains two executable files namely; gui.py and coding_test_Generator.py
+This Project is designed to provide user with coding testing based on user query which must include Topic name and difficulty level of the questions required by the user
+It uses conversational model with OpenAi's api key and langchain.
+
+Key Features
+1. User can input topic name and difficulty level of the questions required.
+2. The model fetches relevant coding questions based on user query.
+3. The model generates coding test based on user query.
+
+Technologies/Framework used
+Python: Used as a core programming language 
+OpenAi's key with Langchain: To chat with conversational model
+Tkinter: Used for GUI development
+
+Project Structure
+lang_with_memory.py: Main application
+gui.py: Implemented gui for the application
+
+How To Run Code
+1. Install Dependencies: To install the required dependencies, run the following command
+pip install -r requirements.txt
+
+2. Update API key for openAi in .env(Personal key has been provided for testing purpose)
+
+3.Sample input either in console or in tkinster window:generate coding test for topic strings with hard difficulty
+Note: Users can choose any topic for questions and difficulty level to be choosen from: Hard, Medium, Easy
+
+4. Execute program using code runner
+python app.py
+python gui.py
+
+
+
+
+Author
+Bilal Abdul
+
+
